@@ -62,3 +62,20 @@ An AI-enhanced communication tool designed to demonstrate the integration of dis
 ```bash
 git clone [https://github.com/avanish-dex/MERN-CHAT-APP.git](https://github.com/avanish-dex/MERN-CHAT-APP.git)
 cd MERN-CHAT-APP
+Start the Backend
+Bash
+npm install
+npm run server
+
+Start the Frontend
+Bash
+cd frontend
+npm install
+npm run dev
+
+Start the NLP Service
+Bash
+cd nlp_service
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
